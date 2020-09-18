@@ -139,56 +139,56 @@ Configuration: back end with chain of certificates **cnok-sanko**
 
 ### Runs
 #### Run 1
-Validate server host name => checked
-Host name validation fail on error => checked
-Validate server certificate => checked
-Crypto Validation Credential contains the Root_CA/Intermediary
-All flags unchecked
+Validate server host name => checked<br>
+Host name validation fail on error => checked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential contains the Root_CA/Intermediary<br>
+All flags unchecked<br>
 
 Result: <span style="color:red">error</span>
 
 #### Run 2
-Validate server host name => checked
-Host name validation fail on error => checked
-Validate server certificate => checked
-Crypto Validation Credential contains the Root_CA/Intermediary
-X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **checked**
+Validate server host name => checked<br>
+Host name validation fail on error => checked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential contains the Root_CA/Intermediary<br>
+X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **checked**<br>
 
 Result: <span style="color:green">valid</span>
 
 #### Run 3
-Validate server host name => checked
-Host name validation fail on error => checked
-Validate server certificate => checked
-Crypto Validation Credential **does not contains the Root_CA/Intermediary**
-X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => checked
+Validate server host name => checked<br>
+Host name validation fail on error => checked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential **does not contains the Root_CA/Intermediary**<br>
+X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => checked<br>
 
 Result: <span style="color:green">valid</span>
 
 #### Run 4
-Validate server host name => checked
-Host name validation fail on error => **unchecked**
-Validate server certificate => checked
-Crypto Validation Credential does not contains the Root_CA/Intermediary
-X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **unchecked**
+Validate server host name => checked<br>
+Host name validation fail on error => **unchecked**<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential does not contains the Root_CA/Intermediary<br>
+X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **unchecked**<br>
 
 Result: <span style="color:red">error</span>
 
 #### Run 5
-Validate server host name => checked
-Host name validation fail on error => **unchecked**
-Validate server certificate => checked
-Crypto Validation Credential **contains the Root_CA/Intermediary**
-X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **checked**
+Validate server host name => checked<br>
+Host name validation fail on error => **unchecked**<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential **contains the Root_CA/Intermediary**<br>
+X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **checked**<br>
 
 Result: <span style="color:green">valid</span>
 
 #### Run 6
-Validate server host name => checked
-Host name validation fail on error => unchecked
-Validate server certificate => checked
-Crypto Validation Credential contains the Root_CA/Intermediary
-X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **unchecked**
+Validate server host name => checked<br>
+Host name validation fail on error => unchecked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential contains the Root_CA/Intermediary<br>
+X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **unchecked**<br>
 
 Result: <span style="color:green">valid</span>
 
@@ -203,38 +203,38 @@ Configuration: back end with chain of certificates **cnko-sanok**
 
 ### Runs
 #### Run 1
-Validate server host name => checked
-Host name validation fail on error => checked
-Validate server certificate => checked
-Crypto Validation Credential contains the Root_CA/Intermediary
-All flags unchecked (or unchecked)
+Validate server host name => checked<br>
+Host name validation fail on error => checked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential contains the Root_CA/Intermediary<br>
+All flags unchecked (or unchecked)<br>
 
 Result: <span style="color:green">valid</span>
 
 #### Run 2
-Validate server host name => checked
-Host name validation fail on error => checked
-Validate server certificate => checked
-Crypto Validation Credential **does not contains the Root_CA/Intermediary**
-All flags unchecked (or unchecked)
+Validate server host name => checked<br>
+Host name validation fail on error => checked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential **does not contains the Root_CA/Intermediary**<br>
+All flags unchecked (or unchecked)<br>
 
 Result: <span style="color:green">valid</span>
 
 #### Run 3
-Validate server host name => checked
-Host name validation fail on error => **unchecked**
-Validate server certificate => checked
-Crypto Validation Credential does not contains the Root_CA/Intermediary
-All flags unchecked (or unchecked)
+Validate server host name => checked<br>
+Host name validation fail on error => **unchecked**<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential does not contains the Root_CA/Intermediary<br>
+All flags unchecked (or unchecked)<br>
 
 Result: <span style="color:red">error</span>
 
 #### Run 4
-Validate server host name => checked
-Host name validation fail on error => unchecked
-Validate server certificate => checked
-Crypto Validation Credential **contains the Root_CA/Intermediary**
-All flags unchecked (or unchecked)
+Validate server host name => checked<br>
+Host name validation fail on error => unchecked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential **contains the Root_CA/Intermediary**<br>
+All flags unchecked (or unchecked)<br>
 
 Result: <span style="color:green">valid</span>
 
@@ -248,29 +248,29 @@ Configuration: back end with chain of certificates **cnko-sanko**
 
 ### Runs
 #### Run 1
-Validate server host name => checked
-Host name validation fail on error => checked
-Validate server certificate => checked
-Crypto Validation Credential contains the Root_CA/Intermediary
-All flags unchecked
+Validate server host name => checked<br>
+Host name validation fail on error => checked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential contains the Root_CA/Intermediary<br>
+All flags unchecked<br>
 
 Result: <span style="color:red">error</span>
 
 #### Run 2
-Validate server host name => checked
-Host name validation fail on error => **unchecked**
-Validate server certificate => checked
-Crypto Validation Credential contains the Root_CA/Intermediary
-All flags unchecked
+Validate server host name => checked<br>
+Host name validation fail on error => **unchecked**<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential contains the Root_CA/Intermediary<br>
+All flags unchecked<br>
 
 Result: <span style="color:green">valid</span> (Logs does not really have a message)
 
 #### Run 3
-Validate server host name => checked
-Host name validation fail on error => unchecked
-Validate server certificate => checked
-Crypto Validation Credential **does not contain the Root_CA/Intermediary**
-All flags unchecked
+Validate server host name => checked<br>
+Host name validation fail on error => unchecked<br>
+Validate server certificate => checked<br>
+Crypto Validation Credential **does not contain the Root_CA/Intermediary**<br>
+All flags unchecked<br>
 
 Result: <span style="color:red">error</span>
 
