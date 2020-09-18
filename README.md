@@ -145,7 +145,7 @@ Validate server certificate => checked
 Crypto Validation Credential contains the Root_CA/Intermediary
 All flags unchecked
 
-Result: error
+Result: <span style="color:red">error</span>
 
 #### Run 2
 Validate server host name => checked
@@ -154,7 +154,7 @@ Validate server certificate => checked
 Crypto Validation Credential contains the Root_CA/Intermediary
 X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **checked**
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Run 3
 Validate server host name => checked
@@ -163,7 +163,7 @@ Validate server certificate => checked
 Crypto Validation Credential **does not contains the Root_CA/Intermediary**
 X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => checked
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Run 4
 Validate server host name => checked
@@ -172,7 +172,7 @@ Validate server certificate => checked
 Crypto Validation Credential does not contains the Root_CA/Intermediary
 X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **unchecked**
 
-Result: error
+Result: <span style="color:red">error</span>
 
 #### Run 5
 Validate server host name => checked
@@ -181,7 +181,7 @@ Validate server certificate => checked
 Crypto Validation Credential **contains the Root_CA/Intermediary**
 X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **checked**
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Run 6
 Validate server host name => checked
@@ -190,7 +190,7 @@ Validate server certificate => checked
 Crypto Validation Credential contains the Root_CA/Intermediary
 X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT => **unchecked**
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Conclusion Test 1
 This test concludes the precedence of the SAN, and if not valid entry in the SAN, then CN is checked if the flag *X509_CHECK_FLAG_ALWAYS_CHECK_SUBJECT* is checked. It also confirms that the *Crypto Validation Credential* is not used when the *Host name validation fail on error* is used.
@@ -209,7 +209,7 @@ Validate server certificate => checked
 Crypto Validation Credential contains the Root_CA/Intermediary
 All flags unchecked (or unchecked)
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Run 2
 Validate server host name => checked
@@ -218,7 +218,7 @@ Validate server certificate => checked
 Crypto Validation Credential **does not contains the Root_CA/Intermediary**
 All flags unchecked (or unchecked)
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Run 3
 Validate server host name => checked
@@ -227,7 +227,7 @@ Validate server certificate => checked
 Crypto Validation Credential does not contains the Root_CA/Intermediary
 All flags unchecked (or unchecked)
 
-Result: error
+Result: <span style="color:red">error</span>
 
 #### Run 4
 Validate server host name => checked
@@ -236,7 +236,7 @@ Validate server certificate => checked
 Crypto Validation Credential **contains the Root_CA/Intermediary**
 All flags unchecked (or unchecked)
 
-Result: valid
+Result: <span style="color:green">valid</span>
 
 #### Conclusion Test 2
 This test confirms that with SAN we do not need a special flags hence the precedence of the SAN. It also confirms the use of the *Host name validation fail on error* , if use then there is no use of the *Crypto Validation Credential*.
@@ -254,7 +254,7 @@ Validate server certificate => checked
 Crypto Validation Credential contains the Root_CA/Intermediary
 All flags unchecked
 
-Result: error
+Result: <span style="color:red">error</span>
 
 #### Run 2
 Validate server host name => checked
@@ -263,7 +263,7 @@ Validate server certificate => checked
 Crypto Validation Credential contains the Root_CA/Intermediary
 All flags unchecked
 
-Result: valid (Logs does not really have a message)
+Result: <span style="color:green">valid</span> (Logs does not really have a message)
 
 #### Run 3
 Validate server host name => checked
@@ -272,7 +272,7 @@ Validate server certificate => checked
 Crypto Validation Credential **does not contain the Root_CA/Intermediary**
 All flags unchecked
 
-Result: error
+Result: <span style="color:red">error</span>
 
 #### Conclusion Test 3
 The behavior of the *Host name validation fail on error* is confirmed. The Crypto Validation Credential is used.
