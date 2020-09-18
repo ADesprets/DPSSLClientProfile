@@ -3,7 +3,7 @@
 
 This small article is a go at explaining some of the possible configurations and the benefits of each configuration. The goal is to demonstrate the behavior of the various configurations.
 
-In fact, we are concentrating on the following parameters of a SSL Client Profile in the red box below:
+In fact, we are concentrating on the following parameters of a SSL Client Profile in the red boxes below:
 
 ![Environment](./images/SSL_ClientCredential_0.png)
 
@@ -49,13 +49,13 @@ Since we are going to play with a the SAN - Subject Alternate Names and the Comm
 1. **Chain cnok-sanok**
   - CN is equal to the back end server hostname (fully qualified)
   - SAN contains the hostname of back end server (fully qualified)
-1. **Chain cnko-sanok**
+2. **Chain cnko-sanok**
   - CN is different from back end server hostname
   - SAN contains the hostname of back end server
-1. **Chain cnok-sanko**
-  - CN is equal to the back end server hostname (fully qualified)
+3. **Chain cnok-sanko**
+  - CN is equal to the back end server hostname
   - SAN does not contain the hostname of back end server
-1. **Chain cnko-sanko**
+4. **Chain cnko-sanko**
   - CN is different from back end server hostname
   - SAN does not contain the hostname of back end server
 
