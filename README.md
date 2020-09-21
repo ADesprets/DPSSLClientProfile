@@ -198,7 +198,7 @@ This test concludes the precedence of the SAN, and if not valid entry in the SAN
 
 ## Test 2
 ### Objectives
-In this test we only have the SAN valid. So we use the chain cnok-sanok. We want to validate that the SAN is used. We want to confirm the impact of the *Validate server certificate* option.
+In this test we only have the SAN valid. So we use the chain cnko-sanok. We want to validate that the SAN is used. We want to confirm the impact of the *Validate server certificate* option.
 Configuration: back end with chain of certificates **cnko-sanok**
 
 ### Runs
